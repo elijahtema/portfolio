@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Elijah Tema - Portfolio</title>
+<!--FAVICON-->
+	<link rel="icon" type="image/x-icon" href="import/favicon/darkfavicon.png">
+<!-- LIENS CSS-->
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/grille.css">
+<!-- GLOBAL SITE TAG (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QFV2VVY9RE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-QFV2VVY9RE');
+</script>
+
+</head>
+
+<body id="index">
+
+	<header id="tete">
+
+	<!--HEADER-->
+	<a href="index.html">
+	<div class="case" >
+	<!--TITRE-->
+	<div>
+		<p>portfolio ›</p>
+		<h1>Elijah Tema</h1>
+	</div>
+
+	</div>
+	</a>
+	<!--FIN HEADER-->
+
+
+		<nav id="nav_menu"  class="case"> <!--MENU-->	
+			<span> <a href="index.html">accueil</a> 
+					/
+					<a href="index.html">projets</a> 
+					<br>
+					<a href="import/CV_ELIJAH_TEMA.pdf" target="blank" title="cv">cv</a>
+					<br>
+					<a href="mailto:contact@elijahtema.com" target="blank" title="email">email</a> 
+					<br>
+					<a href="https://instagram.com/elijahtema.jpeg" target="blank" title="instagram">instagram</a>
+					<br>
+					<a href="https://www.linkedin.com/in/elijahtema" target="blank" title="linkedin">linkedin</a>
+					<br>
+					<a href="https://www.pinterest.fr/elijahtema/" target="blank" title="pinterest">pinterest</a>
+			</span>
+
+
+		</nav>
+
+		<nav id="nav_apropos" class="case" >
+			<h3 class="accordion">à propos</h3>
+			<p class="panel"> 
+				<strong>Étudiant en design graphique</strong> imprimé et numérique au <a href="https://dnmade-prevert.fr/" target="blank">DNMADe du Lycée Jacques Prévert</a>. J’y développe un esprit d’analyse critique. Je m’intéresse à la création graphique, le design, l’architecture et en particulier à l’illustration, l’édition, la typographie, l’expérimentation plastique et numérique, la photographie et l’Open design.		</p>
+		</nav>
+
+		<nav id="nav_parcours" class="case" >
+			<h5 class="accordion">parcours</h5>
+			<p class="panel">
+				<span>En ce moment</span>
+				<br>
+				<a href="https://dnmade-prevert.fr/" target="blank">J. Prévert - DNMADE Graphisme Augmenté</a> 
+				<br><br>
+				<span>2022</span><br>
+				stage pratique de la scénographie théâtrale aux ateliers beaux-arts de la ville de Paris<br><br>
+				<span>2019-2021</span><br>
+				<a href="http://www.paris-lavillette.archi.fr/" target="blank">
+				École Nationale Supérieure d’Architecture Paris-La Villette</a><br><br>
+				<span>2019</span><br>
+				Lyc. Adolphe Cherioux - Baccalauréat STI2D, architecture et construction (Mention Bien)
+			</p>
+		</nav>
+
+
+		</header>
+
+
+	<div id="myBtnContainer">
+
+		<button class="btn active tout_montrer" onclick="filterSelection('all')"> tout montrer</button>
+		<button class="btn" onclick="filterSelection('edition')"><p>édition</p></button>
+			<button class="btn" onclick="filterSelection('print')"><p>print</p></button>
+		<button class="btn" onclick="filterSelection('illustration')"><p>illustration</p></button>
+		<button class="btn" onclick="filterSelection('web')"><p>web / ui</p></button>
+		<button class="btn" onclick="filterSelection('motion')"><p>motion</p></button>
+		<button class="btn" onclick="filterSelection('typographie')"><p>typographie</p></button>
+		<button class="btn" onclick="filterSelection('photographie')"><p>photographie</p></button>
+		<button class="btn" onclick="filterSelection('filtre')"><p>filtre instagram</p></button>
+
+	</div>
+
+
+
+	<div id="content">
+
+	<a href="projets/essais.html">
+		<article class="filterDiv case edition print" href="projets/essais.html">
+			<figure>
+				<img src="import/essais_1.jpg"  alt="informative image">		
+			</figure>
+			<h4>essai(s)</h4>
+		</article>
+	</a>
+
+	<a href="projets/sketchbook.html">
+	<article class="filterDiv case illustration">
+		<figure>
+			<img src="import/sketchbook_28.jpg"  alt="informative image">
+		</figure>
+		<h4>sketchbook</h4>
+	</article>
+	</a>
+
+	<a href="projets/teaser-jpo.html">
+	<article class="filterDiv case motion">
+		<figure>
+			<img src="import/projet_teaser_sphere.gif"  alt="informative image">
+		</figure>
+		<h4>teaser jpo</h4>	
+	</article>
+	</a>
+
+	<a href="projets/jaquettes.html">
+	<article class="filterDiv case print">
+
+		<figure>
+			<img src="import/jaquettes_14.jpg"  alt="informative image">		
+		</figure>
+		<h4>jaquettes</h4>
+	</article>
+	</a>	
+
+	<a href="projets/trilogie.html">
+	<article class="filterDiv case illustration">
+
+		<figure>
+			<img src="import/trilogie_huile_rouge.jpg"  alt="informative image">		
+		</figure>
+		<h4>trilogie</h4>
+	</article>
+	</a>
+
+	<a href="projets/photographies.html">
+	<article class="filterDiv case photographie" >
+
+		<figure>
+			<img src="import/photographie_3.jpg"  alt="informative image">		
+		</figure>
+		<h4>photographies</h4>
+	</article>
+	</a>
+
+	<a>
+	<article class="filterDiv case encours web">
+		<figure>
+			<img src="import/glossaire.jpg"  alt="informative image">		
+		</figure>
+		<h4>Webdocumentaire</h4>
+	</article>
+	</a>
+
+	<a href="projets/application.html">
+	<article class="filterDiv case">
+		<figure>
+			<img src="import/application_1.png"  alt="informative image">		
+		</figure>
+		<h4>application</h4>
+	</article>
+	</a>
+
+	<a href="projets/calendrier-riso.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/elijah_Tema_a_Stag_George_Welsey_Bellows.jpg"  alt="informative image">		
+		</figure>
+		<h4>sample</h4>
+	</article>
+	</a>
+
+	<a href="projets/calendrier-riso.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/Capture d’écran 2023-04-14 à 17.08.44.png"  alt="informative image">		
+		</figure>
+		<h4>Système de grille expressive</h4>
+	</article>
+	</a>
+
+	<a href="projets/calendrier-riso.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/les_yeux_visuels-02.jpg"  alt="informative image">		
+		</figure>
+		<h4>les yeux</h4>
+	</article>
+	</a>
+
+	<a href="projets/calendrier-riso.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/DALL·E 2023-04-13 23.05.29.png"  alt="informative image">		
+		</figure>
+		<h4>fake collection</h4>
+	</article>
+	</a>
+
+
+	<a href="projets/calendrier-riso.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/calendrier_3.jpg"  alt="informative image">		
+		</figure>
+		<h4>calendrier riso</h4>
+	</article>
+	</a>
+
+	<a href="projets/calendrier-riso.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/le_cineaste.jpg"  alt="informative image">		
+		</figure>
+		<h4>cineaste</h4>
+	</article>
+	</a>
+
+
+
+	<a href="projets/catalogue.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/catalogue_8.jpg"  alt="informative image">		
+		</figure>
+		<h4>catalogue d'artiste</h4>
+	</article>
+	</a>
+
+	<a href="projets/madfest.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/madfest9.jpg"  alt="informative image">		
+		</figure>
+		<h4>madfest</h4>
+	</article>
+	</a>
+
+	<a href="projets/madfest.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/Capture d’écran 2023-04-14 à 17.41.05.png"  alt="informative image">		
+		</figure>
+		<h4>ePowership, web art</h4>
+	</article>
+	</a>
+
+	<a href="projets/voyage-bout-rue.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/voyage_6.jpg"  alt="informative image">		
+		</figure>
+		<h4>voyage au bout de la rue</h4>
+	</article>
+	</a>
+
+	<a href="projets/textures.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/texture_5.jpeg"  alt="informative image">		
+		</figure>
+		<h4>textures</h4>
+	</article>
+	</a>
+
+	<a href="projets/textures.html">
+	<article class="filterDiv case">
+
+		<figure>
+			<img src="import/filtre.jpg"  alt="informative image">		
+		</figure>
+		<h4>filtre instagram</h4>
+	</article>
+	</a>
+
+
+</div>
+
+<footer>
+	<h5>Copyright © 2022, tous droits réservés, Site codé en hmtl, css et javascript par Elijah Tema</h5>
+</footer>
+
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<script>
+	var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+</html>
